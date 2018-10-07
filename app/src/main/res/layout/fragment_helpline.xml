@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Helpline">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/number_to_call1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91-2227546669"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/phone2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="Call Friend"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="103dp" />
+    <TextView
+        android:id="@+id/number_to_call2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9773658392"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/phone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Call AASRA"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="103dp" />
+    <TextView
+        android:id="@+id/number_to_call3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7773658393"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/phone3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Call Family"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+</FrameLayout>

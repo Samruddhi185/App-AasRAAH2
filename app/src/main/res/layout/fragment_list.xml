@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list">
+
+    <!-- TODO: Update blank fragment layout -->
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="30dp"
+       android:text="HAPPiFY List"
+       android:textAlignment="center"
+       />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meditation for 10 mins"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"/>
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Cycling"
+
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"/>
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn Cooking Your Favourite Dish"
+
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="15dp"/>
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read  The Subtle Art of Not Giving F*uck"
+
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp"/>
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Your Best Friend"
+
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="15dp"/>
+
+
+
+</FrameLayout>
